@@ -1,0 +1,141 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{arabic}
+\setotherlanguage{english}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{array}
+\geometry{margin=2.2cm}
+\onehalfspacing
+\hypersetup{unicode=true,colorlinks=true,linkcolor=black,urlcolor=blue}
+
+\title{\textbf{التقدير الاحتمالي لنشوء الحياة والذكاء في الكون المرصود}\\
+\large نموذج الفلترة التراكمية للمرشحات الفيزيائية والبيولوجية}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{تصنيف الدراسة:} ورقة تحليلية إحصائية في علم الأحياء الفلكي والفيزياء الكونية\\
+\textbf{المنهجية:} التحليل التراكمي لمرشحات دريك المُعدّلة
+
+\section*{ملخص الدراسة}
+تستقصي هذه الدراسة الاحتمالية العدد المرجّح للأجرام السماوية القادرة على احتضان حياة معقدة وذكية ضمن حدود الكون المرصود. انطلاقاً من التقديرات الفلكية الأساسية لعدد المجرات \(\approx 2\times10^{12}\) مجرة والأنظمة الكوكبية، نطبق سلسلة متتابعة من المرشحات الفيزيائية والكيميائية والبيولوجية. وتنتهي الدراسة إلى تقدير يقارب 3,000 عالم يحمل حياة ذكية وتقنية.
+
+\section{المقدمة والإطار الكوني}
+يُقدر قطر الكون المرصود بحوالي 93 مليار سنة ضوئية، ويحتوي على ما يقرب من \(10^{80}\) ذرة. وتعتمد الدراسة على النموذج:
+\[
+N_{\mathrm{final}}=N_{\mathrm{base}}\times\prod_{i=1}^{n}P_i
+\]
+
+\section{التحليل التراكمي}
+
+\subsection{خط الأساس الكوكبي}
+\[
+N_{\mathrm{base}}=10^{22}
+\]
+
+\subsection{الاستقرار الحراري}
+\[
+P_{\mathrm{temp}}=0.50\times0.20\times0.10\times0.20
+=2\times10^{-3}
+\]
+\[
+N_1=10^{22}\times2\times10^{-3}=2\times10^{19}
+\]
+
+\subsection{وفرة المياه والاحتفاظ بها}
+\[
+P_{\mathrm{water}}=0.50\times0.10=5\times10^{-2}
+\]
+\[
+N_2=2\times10^{19}\times5\times10^{-2}=10^{18}
+\]
+
+\subsection{الدرع المغناطيسي}
+\[
+P_{\mathrm{mag}}=0.60\times0.50=3\times10^{-1}
+\]
+\[
+N_3=10^{18}\times0.30=3\times10^{17}
+\]
+
+\subsection{الاستقرار البيئي لمدة 500 مليون سنة}
+\[
+P_{\mathrm{500Myr}}=0.50\times0.70\times0.60\times0.95
+\approx2\times10^{-1}
+\]
+\[
+N_4=3\times10^{17}\times0.20=6\times10^{16}
+\]
+
+\subsection{نشوء الحياة}
+\[
+P_{\mathrm{abio}}=10^{-2}
+\]
+\[
+N_5=6\times10^{16}\times10^{-2}=6\times10^{14}
+\]
+
+\subsection{الاستقرار لأربعة مليارات سنة}
+\[
+P_{\mathrm{4Gyr}}=0.30\times0.10\times0.20\times0.80
+=4.8\times10^{-3}
+\]
+\[
+N_6=6\times10^{14}\times4.8\times10^{-3}
+\approx3\times10^{12}
+\]
+
+\subsection{العقبات البيولوجية الكبرى والذكاء}
+\[
+P_{\mathrm{intel}}=10^{-9}
+\]
+\[
+N_{\mathrm{final}}=3\times10^{12}\times10^{-9}=3{,}000
+\]
+
+\section{جدول النتائج}
+\begin{longtable}{>{\raggedleft\arraybackslash}p{1cm} p{8.2cm} p{2.3cm} p{2.8cm}}
+\toprule
+المرحلة & المرشح العلمي & الاحتمال & العدد المتبقي\\
+\midrule
+0 & النطاق المداري المقبول & --- & \(10^{22}\)\\
+1 & الاستقرار الحراري السطحي & \(2\times10^{-3}\) & \(2\times10^{19}\)\\
+2 & وجود المياه والاحتفاظ بها & \(5\times10^{-2}\) & \(10^{18}\)\\
+3 & المجال المغناطيسي الفعال & \(3\times10^{-1}\) & \(3\times10^{17}\)\\
+4 & الاستقرار لمدة 500 مليون سنة & \(2\times10^{-1}\) & \(6\times10^{16}\)\\
+5 & نشوء الحياة & \(10^{-2}\) & \(6\times10^{14}\)\\
+6 & الاستقرار لأربعة مليارات سنة & \(4.8\times10^{-3}\) & \(3\times10^{12}\)\\
+7 & التطور نحو الذكاء والتقنية & \(10^{-9}\) & \(3{,}000\)\\
+\bottomrule
+\end{longtable}
+
+\section{المناقشة}
+إذا توزعت 3,000 حضارة على نحو تريليوني مجرة، يصبح المعدل التقريبي:
+\[
+1\ \text{عالم ذكي لكل}\ 660{,}000{,}000\ \text{مجرة}
+\]
+ويقدم ذلك تفسيراً محتملاً للعزلة الكونية ولمفارقة فيرمي.
+
+\section{المراجع}
+\begin{enumerate}
+\item Bryson, S., et al. (2021). The Astronomical Journal, 161(1), 36.
+\item Walker, J. C., Hays, P. B., \& Kasting, J. F. (1981). Journal of Geophysical Research, 86(C10), 9776--9782.
+\item Lundin, R., Lammer, H., \& Ribas, I. (2007). Space Science Reviews, 129(1), 245--278.
+\item Lane, N., \& Martin, W. (2010). Nature, 467(7318), 929--934.
+\item Carter, B. (1983). Philosophical Transactions of the Royal Society A, 310(1512), 347--363.
+\item Davies, P. C., et al. (2009). Astrobiology, 9(2), 241--249.
+\item Eddington, A. S. (1938). Proceedings of the Cambridge Philosophical Society, 34(1), 59--64.
+\end{enumerate}
+
+\end{document}
